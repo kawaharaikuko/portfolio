@@ -17,7 +17,9 @@ header .logo img {
   width: 90px; /* 画像の幅を90pxに設定 */
   height: 90px; /* 画像の高さを90pxに設定 */
 }
-
+header h6 {
+  font-size: 1.17em !important;
+}
 nav {
   text-align: center;
   margin-right: 50px;
