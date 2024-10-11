@@ -5,31 +5,48 @@ html {
 }
 header { 
   background-color: #8B614F;
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.17em; /* フォントサイズを1.17emに設定 */
 }
-nav{
+
+header .logo img {
+  width: 90px; /* 画像の幅を90pxに設定 */
+  height: 90px; /* 画像の高さを90pxに設定 */
+}
+
+nav {
   text-align: center;
-  }
-  nav ul{
-  margin: 0 ;
-  padding: 0 ;
-  }
-  nav ul li{
+  margin-right: 50px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+nav ul li {
   display: inline-block;
-  width: 18%;
-  min-width: 90px;
-  }
-  nav ul li a{
+  margin-right: 20px;
+}
+
+nav ul li a {
   text-decoration: none;
   color: #333;
-  }
-  nav ul li.current a{
-  color: #F33135;
-  }
-  nav ul li a:hover{
-  color: #41b0b2;
-  }
+  font-size: 1.2rem;
+}
 
+nav ul li.current a {
+  color: #F33135;
+}
+
+nav ul li a:hover {
+  color: #41b0b2;
+}
 
 body {
   background-color: #E5CEC0;
