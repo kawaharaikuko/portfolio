@@ -88,7 +88,4 @@ header {
   padding: 20px 0; /* ヘッダーの上下に余白を追加 */
 }
 
-header table {
-  margin: 0 auto; /* テーブルを中央揃え */
-  width: 80%; /* テーブルの幅を調整 */
-}
+
