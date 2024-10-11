@@ -66,8 +66,13 @@ p.logo img {
   width: 31px;
 }
 
-footer { 
+header { 
   background-color: #8B614F;
-  text-align: center;
-  margin-bottom: 20px;
+  width: 100%; /* ヘッダーの幅を全画面に設定 */
+  padding: 20px 0; /* ヘッダーの上下に余白を追加 */
+}
+
+header table {
+  margin: 0 auto; /* テーブルを中央揃え */
+  width: 80%; /* テーブルの幅を調整 */
 }
