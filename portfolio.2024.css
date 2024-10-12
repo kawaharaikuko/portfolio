@@ -87,9 +87,8 @@ footer {
   margin: 20px 0;  
   background-color: #8B614F;
   width: 100%;
-  padding: 20px 0;
-  display: flex;
-  text-align: center;
+  padding: 10px 0;
+ 
 }
 
 @media (max-width: 768px) {
