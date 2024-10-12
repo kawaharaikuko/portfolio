@@ -88,7 +88,9 @@ footer {
   background-color: #8B614F;
   width: 100%;
   padding: 20px 0;
-  display: flex;}
+  display: flex;
+  text-align: center;
+}
 
 @media (max-width: 768px) {
   header {
