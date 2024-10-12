@@ -3,6 +3,13 @@
 html {
   font-size: 100%;
 }
+body {
+  background-color: #E5CEC0;
+  font-family: 'Catamaran','Noto Sans JP', sans-serif;
+  line-height: 2.0;
+  color: #2c2c2c;
+}
+
 header { 
   background-color: #8B614F;
   width: 100%;
@@ -13,8 +20,8 @@ header {
 }
 
 header .logo img {
-  width: 90px; /* 画像の幅を90pxに設定 */
-  height: 90px; /* 画像の高さを90pxに設定 */
+  width: 90px;
+  height: 90px;
 }
 
 nav {
@@ -47,45 +54,57 @@ nav ul li a:hover {
   color: #41b0b2;
 }
 
-body {
-  background-color: #E5CEC0;
-  font-family: 'Catamaran','Noto Sans JP', sans-serif;
-  line-height: 2.0;
-  color: #2c2c2c;
- 
-}
 h2 {
   font-size: 230%;
   color: #2c2c2c;
-  text-align: left;
-  margin-left: 150px; 
+  text-align: center;
+  margin-bottom: 20px;
 }
+
 .innerWrap {
-  width: 1240px;
+  width: 90%;
+  max-width: 1240px;
   margin: 0 auto;
   padding: 80px 20px 0;
+  text-align: center;
 }
+
 .resizeimage img {
   width: 100%;
 }
-p {
-  margin-left: 50px; 
-    }
-h1 {
-  margin-left: 50px; 
-    }
-img {
-  margin-left: 50px; 
+
+p, h1, img {
+  margin-left: 0;
+  text-align: center;
 }
 
 p.logo img {
   width: 31px;
 }
 
-header { 
-  background-color: #8B614F;
-  width: 100%; /* ヘッダーの幅を全画面に設定 */
-  padding: 20px 0; /* ヘッダーの上下に余白を追加 */
+footer {
+  text-align: center;
+  margin: 20px 0;
 }
 
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
 
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .innerWrap {
+    padding: 40px 10px 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
