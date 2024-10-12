@@ -84,8 +84,11 @@ p.logo img {
 
 footer {
   text-align: center;
-  margin: 20px 0;
-}
+  margin: 20px 0;  
+  background-color: #8B614F;
+  width: 100%;
+  padding: 20px 0;
+  display: flex;}
 
 @media (max-width: 768px) {
   header {
